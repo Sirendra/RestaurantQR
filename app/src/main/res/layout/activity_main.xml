@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backPage"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:textColor="@color/shade"
+    android:textSize="50sp"/>
+    <TextView
+        android:id="@+id/signoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/shade"
+        android:layout_alignParentRight="true"/>
+<FrameLayout
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/frameQRC"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="80dp">
+    <ImageView
+        android:id="@+id/qrCode"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/white"
+
+        />
+</FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/frameQRC"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:elevation="8dp"
+    >
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menu"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/orderBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Orders"/>
+</LinearLayout>
+</RelativeLayout>

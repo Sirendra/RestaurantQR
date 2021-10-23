@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "972714373938",
+    "project_id": "resc-7b883",
+    "storage_bucket": "resc-7b883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972714373938:android:151913077649a4fcb61d2b",
+        "android_client_info": {
+          "package_name": "com.assignment.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972714373938-47hfm8jg1mp7avosalvt8g3m2gjm2uf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.assignment.myapplication",
+            "certificate_hash": "aa22e2b2815f8710064f5baedd06aa82f234d3d1"
+          }
+        },
+        {
+          "client_id": "972714373938-ehncf6itsu8mia08ks8j2rl7o798td4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoci_U6dRhiDp21CZ-ENWvFBg4V4qE40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972714373938-ehncf6itsu8mia08ks8j2rl7o798td4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972714373938:android:dad1df05ec14052db61d2b",
+        "android_client_info": {
+          "package_name": "com.assignment.restaurantqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972714373938-ehncf6itsu8mia08ks8j2rl7o798td4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoci_U6dRhiDp21CZ-ENWvFBg4V4qE40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972714373938-ehncf6itsu8mia08ks8j2rl7o798td4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
